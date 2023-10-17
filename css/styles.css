@@ -1135,6 +1135,7 @@ fill: var(--primarybrand-color);
   align-items: center;
   justify-content: center;
   fill: transparent;
+margin-right: 8px;
 }
 
 .checkbox-link{
@@ -1157,5 +1158,86 @@ color: var(--modalbackground-color);
     letter-spacing: 0.64px;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 95px;
     
+}
+
+.checkbox-size{
+  width: 16px;
+  height: 16px;
+}
+
+.heckbox-input:checked .checkbox-label::before {
+  background-color:var(--pressedstate-color);
+border: none;
+fill:var(--light-color);
+}
+
+
+
+
+.subscribe-tittle{
+  color: var(--modal-background);
+    font-size: 16px;
+      font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
+}
+
+.substribe-form{
+display: flex;
+}
+
+.substribe-input{
+  gap:24px;
+}
+
+.substribe-input{
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: var(--modal-background);
+   
+    font-size: 12px;
+ 
+    font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--modal-background);
+
+
+
+}
+
+.subscribe-botton{
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--modal-background);
+    text-align: center;
+
+    font-size: 16px;
+       font-weight: 500;
+    line-height: 1.5;
+      letter-spacing: 0.64px;
+      cursor: pointer;
+      background-color: var(--primarybrand-color);
+      border: none;
+      border-radius: 4px;
+      margin-left: 24px;
+}
+
+.subscribe-icon{
+  margin-left: 16px;
+}
+
+.subscribe{
+  margin-left: 80px;;
 }
