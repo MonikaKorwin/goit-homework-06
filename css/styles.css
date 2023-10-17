@@ -1081,7 +1081,9 @@ img {
 }
 
 .form-svg:hover,
-.form-svg:focus{
+.form-svg:focus,
+.form-svg:active
+{
 fill: var(--primarybrand-color);
 }
 
@@ -1242,4 +1244,11 @@ gap:24px;
 
 .subscribe{
   margin-left: 80px;;
+}
+
+
+.checkbox-input:checked{
+background-color:var(--pressedstate-color);
+border: none;
+fill: var(--light-color);
 }
