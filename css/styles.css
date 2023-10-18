@@ -1051,7 +1051,11 @@ img {
 
 .form-icon {
   position: relative;
- 
+
+}
+.form-icon:focus,
+.form-icon:hover{
+  fill: var(--primarybrand-color);
 }
 
 .form-input {
@@ -1252,3 +1256,5 @@ background-color:var(--pressedstate-color);
 border: none;
 fill: var(--light-color);
 }
+
+
