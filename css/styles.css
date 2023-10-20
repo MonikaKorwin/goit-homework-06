@@ -1044,18 +1044,14 @@ img {
   line-height: 1.17;
   letter-spacing: 0.48px;
   margin-bottom: 4px;
+  
  
 }
 
 .form-icon {
   position: relative;
-
-
 }
-.form-icon:focus-within {
-  fill: var(--primarybrand-color);
- 
-}
+
 
 .form-input {
   width: 100%;
@@ -1068,8 +1064,8 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
- .form-input:focus,
-.form-input:hover {
+ .form-input:focus
+ {
   border-color: var(--primarybrand-color);
 } 
 
@@ -1082,13 +1078,10 @@ img {
   fill: var(--dark-color);
 
 }
+ .form-icon:focus-within .form-svg {
+   fill: var(--primarybrand-color);
+ }
 
-.form-svg:hover,
-.form-svg:focus,
-.form-svg:active
-{
-fill: var(--primarybrand-color);
-} 
 
 
 .form-comment{
@@ -1123,7 +1116,7 @@ fill: var(--primarybrand-color);
 }
 
 .checkbox-label{
-  display: block;
+  display: flex;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -1149,6 +1142,7 @@ margin-right: 8px;
 
 .checkbox-link{
   color:var(--primarybrand-color);
+margin-left: 5px;
 }
 
 .checkbox-button{
@@ -1245,6 +1239,7 @@ gap:24px;
 
 .subscribe-icon{
   margin-left: 16px;
+  fill: red;;
 }
 
 .subscribe{
@@ -1252,7 +1247,3 @@ gap:24px;
 }
 
  
-.checkbox-icon{
-  width: 16px;
-  height: 16px;
-}
